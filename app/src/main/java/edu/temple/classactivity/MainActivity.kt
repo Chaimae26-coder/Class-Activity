@@ -14,15 +14,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val imageView : ImageView = findViewById(R.id.imageView)
 
-        var id: Int = R.drawable.
+        var id: Int = R.drawable.cat1
 
         findViewById<Button>(R.id.button).setOnClickListener{
-            if (id == ) {
-                imageView.setImageResource(R.drawable)
-                id = R.drawable
+            if (id == R.drawable.cat1) {
+                imageView.setImageResource(R.drawable.cat1)
+                id = R.drawable.cat2
             } else {
-                imageView.setImageResource(R.drawable)
-                id = R.drawable
+                imageView.setImageResource(R.drawable.cat2)
+                id = R.drawable.cat2
             }
         }
     }
